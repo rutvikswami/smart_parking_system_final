@@ -98,8 +98,11 @@ tmp_rovodev_*
 *.tex
 *.txt
 *.pdf
-*.md
 SAMPLE*
 acli.exe
 prototype*
 *prompt*
+
+# Allow README.md but exclude other .md files
+*.md
+!README.md
