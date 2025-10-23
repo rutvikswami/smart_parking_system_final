@@ -1,0 +1,105 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+/project/dist/
+/project/build/
+/project/.next/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+project2.0/venv/
+project2.0/env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Model files (large)
+*.pt
+*.pth
+*.weights
+*.h5
+
+# Video files (large)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Temporary rovodev files
+tmp_rovodev_*
+
+# Backup files
+*.bak
+*.backup
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Exclude documentation files (keep only code folders)
+*.tex
+*.txt
+*.pdf
+*.md
+SAMPLE*
+acli.exe
+prototype*
+*prompt*
